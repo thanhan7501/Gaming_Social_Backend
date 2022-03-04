@@ -1,0 +1,39 @@
+{
+  "name": "gaming_social",
+  "version": "1",
+  "description": "final project",
+  "main": "server.js",
+  "repository": "https://github.com/thanhan7501/Gaming_Social.git",
+  "author": "An",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@koa/multer": "^3.0.0",
+    "@koa/router": "^10.1.1",
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "debug": "^2.6.3",
+    "dotenv": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-mongo": "^1.9.3",
+    "koa-morgan": "^1.0.1",
+    "koa-passport": "^4.1.4",
+    "koa-static": "^5.0.0",
+    "mongodb": "^3.6.3",
+    "mongoose": "^6.0.13",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "passport-oauth2": "^1.6.1",
+    "redis": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
